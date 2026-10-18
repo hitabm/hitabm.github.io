@@ -87,12 +87,12 @@ h1 em, h2 span { color: var(--red); font-style: normal; }
 .expertise-card.accent { background: var(--red); color: var(--white); }
 .expertise-card .card-number { color: #91958f; }
 .accent .card-number { color: #ffd8d2; }
-.accent p { color: #fff5f2; }
-.accent .tag-list span { border-color: #ef8f87; color: var(--white); }
 .expertise-card h3 { font-size: 29px; letter-spacing: -.06em; line-height: 1; margin: 72px 0 20px; }
 .expertise-card p { color: #717771; font-size: 13px; margin-bottom: 24px; max-width: 245px; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 7px; margin-top: auto; max-width: 100%; }
 .tag-list span { border: 1px solid #c9cbc3; color: #70766f; font-family: "DM Mono", monospace; font-size: 9px; padding: 4px 7px; }
+.expertise-card.accent p { color: #fff5f2; }
+.expertise-card.accent .tag-list span { border-color: #ef8f87; color: var(--white); }
 .education-content { display: grid; grid-template-columns: 40% 60%; }
 .education-list { border-top: 1px solid var(--line); }
 .education-item { display: grid; grid-template-columns: 25% 75%; padding: 26px 0; }
