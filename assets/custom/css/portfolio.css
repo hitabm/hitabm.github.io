@@ -86,7 +86,8 @@ h1 em, h2 span { color: var(--red); font-style: normal; }
 .expertise-card { background: var(--paper); display: flex; flex-direction: column; min-height: 375px; padding: 25px; position: relative; }
 .expertise-card.accent { background: var(--red); color: var(--white); }
 .expertise-card .card-number { color: #91958f; }
-.accent .card-number, .accent p { color: #f5c1bb; }
+.accent .card-number { color: #ffd8d2; }
+.accent p { color: #fff5f2; }
 .accent .tag-list span { border-color: #ef8f87; color: var(--white); }
 .expertise-card h3 { font-size: 29px; letter-spacing: -.06em; line-height: 1; margin: 72px 0 20px; }
 .expertise-card p { color: #717771; font-size: 13px; margin-bottom: 24px; max-width: 245px; }
