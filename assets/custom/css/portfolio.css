@@ -25,7 +25,8 @@ a { color: inherit; text-decoration: none; }
     align-items: center; display: flex; justify-content: space-between; padding-top: 28px; padding-bottom: 28px;
 }
 .brand { align-items: center; display: flex; font-size: 16px; font-weight: 800; letter-spacing: -.04em; }
-.brand-mark { align-items: center; background: var(--red); border-radius: 50%; color: var(--white); display: inline-flex; font-family: "DM Mono", monospace; font-size: 11px; height: 32px; justify-content: center; margin-right: 10px; width: 32px; }
+.brand-mark { align-items: center; background: var(--red); border-radius: 50%; display: inline-flex; height: 32px; justify-content: center; margin-right: 10px; overflow: hidden; width: 32px; }
+.brand-mark img { height: 100%; object-fit: cover; width: 100%; }
 .brand-dot, .company span { color: var(--red); }
 .site-nav { align-items: center; display: flex; gap: 30px; font-size: 12px; font-weight: 700; letter-spacing: .02em; }
 .site-nav a:not(.nav-cta), .text-link { color: #5c625e; }
@@ -37,6 +38,7 @@ a { color: inherit; text-decoration: none; }
 .eyebrow, .section-kicker, .timeline-date, .education-year, .image-label, .card-number {
     font-family: "DM Mono", monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
 }
+.hero-name { color: var(--ink); font-size: clamp(1.25rem, 2.2vw, 1.7rem); font-weight: 800; letter-spacing: -.04em; line-height: 1.1; margin-bottom: 24px; }
 .eyebrow { align-items: center; color: #68706a; display: flex; gap: 9px; }
 .status-dot { background: var(--red); border-radius: 50%; display: inline-block; height: 7px; width: 7px; }
 h1, h2, h3, p { margin-top: 0; }
