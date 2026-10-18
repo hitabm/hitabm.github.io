@@ -105,9 +105,15 @@ h1 em, h2 span { color: var(--red); font-style: normal; }
 .contact h2 { font-size: clamp(3.4rem, 7vw, 7rem); letter-spacing: -.09em; line-height: .9; margin: 25px auto 40px; }
 .contact h2 em { color: var(--red); font-style: normal; }
 .site-footer { align-items: center; color: #858b84; display: flex; font-family: "DM Mono", monospace; font-size: 10px; justify-content: space-between; padding-bottom: 30px; padding-top: 30px; text-transform: uppercase; }
-.footer-links { display: flex; gap: 20px; }
-.footer-social { align-items: center; display: inline-flex; }
+.footer-links { align-items: center; display: flex; flex-wrap: wrap; gap: 12px 20px; }
+.footer-social { align-items: center; display: inline-flex; gap: 6px; transition: color .2s ease; }
 .footer-social svg { fill: currentColor; height: 15px; width: 15px; }
+.footer-social:hover { color: var(--ink); }
+.brand-github:hover { color: #181717; }
+.brand-linkedin:hover { color: #0a66c2; }
+.brand-whatsapp:hover { color: #25d366; }
+.brand-telegram:hover { color: #229ed9; }
+.brand-instagram:hover { color: #e4405f; }
 .back-top { color: var(--ink); }
 
 @media (max-width: 800px) {
